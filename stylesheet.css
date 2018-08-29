@@ -1,37 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 .slidecontainer {
-    width: 100%; /* Width of the outside container */
+  width: 100%;
+  /* Width of the outside container */
 }
 
 /* The slider itself */
 .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
-    appearance: none;
-    width: 35%; /* Full-width */
-    height: 8px; /* Specified height */
-    background: #d3d3d3; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-    transition: opacity .2s;
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  appearance: none;
+  width: 35%;
+  /* Full-width */
+  height: 8px;
+  /* Specified height */
+  background: #d3d3d3;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: 0.7;
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s;
+  /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
 }
 
 /* Mouse-over effects */
 .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+  opacity: 1;
+  /* Fully shown on mouse-over */
 }
 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
-    width: 5px; /* Set a specific slider handle width */
-    height: 5px; /* Slider handle height */
-    background: rgba(82, 35, 135, 0.8); /* Green background */
-    cursor: pointer; /* Cursor on hover */
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 5px;
+  /* Set a specific slider handle width */
+  height: 5px;
+  /* Slider handle height */
+  background: rgba(82, 35, 135, 0.8);
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
 }
 
 .slider::-moz-range-thumb {
-    width: 20px; /* Set a specific slider handle width */
-    height: 20px; /* Slider handle height */
-    background: rgba(82, 35, 135, 0.8); /* Green background */
-    cursor: pointer; /* Cursor on hover */
+  width: 20px;
+  /* Set a specific slider handle width */
+  height: 20px;
+  /* Slider handle height */
+  background: rgba(82, 35, 135, 0.8);
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 60px;
+}
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+body {
+
+  border-style: solid;
+  border-width: 20px 100px;
+  border-color: rgb(65, 65, 65)
 }
